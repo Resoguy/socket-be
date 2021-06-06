@@ -5,7 +5,7 @@ const http = require('http');
 const server = http.createServer(app);
 const PORT = 4400;
 const io = new Server(server, {
-    cors: ['http://localhost:3000']
+    cors: ['http://localhost:3000', 'https://resoguy.github.io']
 });
 
 
